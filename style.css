@@ -1,0 +1,265 @@
+/* Fuente general */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #e7fbe9;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+/* Encabezado */
+header {
+  background-color: #2e8b57;
+  color: white;
+  padding: 20px 0;
+}
+
+.logo {
+  width: 300px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Navegación */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Banner de inicio */
+.banner {
+  background-color: #a5d6a7;
+  color: #1a1a1a;
+  padding: 200x 20px;
+}
+
+.banner h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.boton {
+  background-color: #2e8b57;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.boton:hover {
+  background-color: #256d45;
+}
+
+/* Secciones */
+.seccion {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Contenido centrado */
+.contenido.centrado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenido.centrado img {
+  width: 300px;
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* Tarjetas de servicios */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 280px;
+  transition: transform 0.3s;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  color: #2e8b57;
+  margin-bottom: 10px;
+}
+
+/* Formulario */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+form label {
+  display: block;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form button {
+  margin-top: 20px;
+  background-color: #2e8b57;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form button:hover {
+  background-color: #256d45;
+}
+
+/* Mapa */
+.mapa {
+  margin-top: 40px;
+}
+
+/* Footer */
+footer {
+  background-color: #2e8b57;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+/* Botón subir */
+#btnSubir {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #2e8b57;
+  color: white;
+  padding: 12px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 18px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+#btnSubir:hover {
+  background-color: #256d45;
+}
+
+/* WhatsApp botón */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 55px;
+  height: 55px;
+  background-color: #25D366;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  line-height: 55px;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp:hover {
+  background-color: #1ebe5d;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .banner h1 {
+    font-size: 28px;
+  }
+}
+.quienes-somos {
+  background-image: url("img/tu-imagen.jpg"); /* Cambia por tu imagen */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.quienes-overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semi-transparente */
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 800px;
+}
+
+.quienes-overlay h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.quienes-overlay p {
+  font-size: 18px;
+  line-height: 1.5;
+}

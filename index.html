@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EcoPlagas Guayaquil</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <canvas id="bgCanvas"></canvas>
+
+  <div class="content-wrapper">
+    <header>
+      <div class="container">
+        <img src="descarga.png" alt="Logo EcoPlagas" class="logo" />
+        <nav>
+          <a href="#inicio">Inicio</a>
+          <a href="#nosotros">Nosotros</a>
+          <a href="#mision">Misión</a>
+          <a href="#vision">Visión</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </div>
+    </header>
+
+    <section id="inicio" class="section banner">
+      <h2>Control de Plagas EcoPlagas</h2>
+      <p>Servicio profesional en Guayaquil. Tu salud, nuestro compromiso.</p>
+      <a href="#contacto" class="boton">Contáctanos</a>
+    </section>
+
+    <section id="nosotros" class="section">
+      <h2>¿Quiénes Somos?</h2>
+      <div class="contenido-centrado">
+        <img src="irbetra.jpg" alt="Equipo EcoPlagas" class="image-section" />
+        <p>
+          Somos una empresa especializada en el control y eliminación de plagas urbanas, ofreciendo soluciones efectivas y ecológicas. Nuestro equipo está conformado por técnicos certificados comprometidos con tu bienestar.
+        </p>
+      </div>
+    </section>
+
+    <section id="mision" class="section">
+      <h2>Misión</h2>
+      <p>
+        Proteger la salud de nuestros clientes mediante el control seguro y eficiente de plagas, con responsabilidad ambiental y excelencia en el servicio.
+      </p>
+    </section>
+
+    <section id="vision" class="section">
+      <h2>Visión</h2>
+      <p>
+        Ser la empresa líder en Guayaquil en servicios de control de plagas, reconocida por su innovación, responsabilidad y compromiso con el ambiente.
+      </p>
+    </section>
+
+    <section id="servicios" class="section">
+      <h2>Servicios</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="descarga.jpg" alt="Control de Cucarachas" class="image-section" />
+          <h3>Control de Cucarachas</h3>
+          <p>Eliminación garantizada en hogares y negocios.</p>
+        </div>
+        <div class="card">
+          <img src="images.jpg" alt="Control de Roedores" class="image-section" />
+          <h3>Control de Roedores</h3>
+          <p>Trampas y técnicas efectivas sin afectar mascotas.</p>
+        </div>
+        <div class="card">
+          <img src="descarga.jpg" alt="Control de Termitas" class="image-section" />
+          <h3>Control de Termitas</h3>
+          <p>Protección de estructuras con productos certificados.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section">
+      <h2>Nuestros Proyectos</h2>
+      <p>
+        Hemos trabajado con hogares, restaurantes, hospitales y empresas industriales en Guayaquil. Todos con resultados efectivos y clientes satisfechos.
+      </p>
+    </section>
+
+    <section id="contacto" class="section">
+      <h2>Contáctanos</h2>
+      <form>
+        <label for="nombre">Nombre</label>
+        <input id="nombre" type="text" placeholder="Nombre" required />
+
+        <label for="email">Correo Electrónico</label>
+        <input id="email" type="email" placeholder="Correo Electrónico" required />
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" placeholder="Mensaje" rows="5" required></textarea>
+
+        <button type="submit">Enviar Mensaje</button>
+      </form>
+      <div class="mapa">
+        <iframe
+          src="https://www.google.com/maps?q=Guayaquil&output=embed"
+          width="100%"
+          height="300"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 EcoPlagas Guayaquil. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+
+  <a href="#inicio" id="btnSubir">↑</a>
+  <a href="https://wa.me/593987654321" class="whatsapp" target="_blank">💬</a>
+</body>
+</html>
